@@ -2,19 +2,19 @@
  -  [1.1  EKS vs. Self-Managed Kubernetes: Pros and Cons](#eks-vs-self-manged-kubernetes-pros-and-cons)
 
 2. [Setting up  AWS Environment for EKS](#setting-up-aws-environment-for-eks)
- - [2.1 Creating an AWS Account and Setting up IAM Users]
- - [2.2 Configuring the AWS CLI and kubectl]
- - [2.3 Preparing Networking and Security Groups for EKS]
+ - [2.1 Creating an AWS Account and Setting up IAM Users](#Creating-an-AWS-Account-and-Setting-up-IAM-Users)
+ - [2.2 Configuring the AWS CLI and kubectl](#Configuring-the-AWS-CLI-and-kubectl)
+ - [2.3 Preparing Networking and Security Groups for EKS](#Preparing-Networking-and-Security-Groups-for-EKS)
 
 3. [Launching  First EKS Cluster](#launching-first-eks-cluster)
- - [3.1 Using the EKS Console for Cluster Creation]
- - [3.2 Launching an EKS Cluster via AWS CLI]
- - [3.3 Authenticating with the EKS Cluster]
+ - [3.1 Using the EKS Console for Cluster Creation](#Using-the-EKS-Console-for-Cluster-Creatio)
+ - [3.2 Launching an EKS Cluster via AWS CLI](#Launching-an-EKS-Cluster-via-AWS-CLI)
+ - [3.3 Authenticating with the EKS Cluster](#Authenticatin-with-the-EKS-Cluster)
 
 4. [Deploying Applications on EKS](#deploying-applications-on-eks)
-4.1 Containerizing Applications with Docker(#Containerizing-Applications-with-Docker)
-4.2 Writing Kubernetes Deployment YAMLs(#Writing-Kubernetes-Deployment-YAMLs)
-4.3 Deploying Applications to EKS: Step-by-step Guide
+  - 4.1 Containerizing Applications with Docker(#Containerizing-Applications-with-Docker)
+  - 4.2 Writing Kubernetes Deployment YAMLs(#Writing-Kubernetes-Deployment-YAMLs)
+  - 4.3 Deploying Applications to EKS: Step-by-step Guide
 
 # Understanding Kubernetes Fundamentals
 
