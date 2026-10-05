@@ -10,6 +10,7 @@ aws iam create-policy \
 
 
  Create IAM Role
+bash
 
 eksctl create iamserviceaccount \
   --cluster=<my-cluster-demo> \
