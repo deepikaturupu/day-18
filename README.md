@@ -1,6 +1,6 @@
 1. [ Understanding Kubernetes Fundamentals](#understanding-kubernetes-fundamentals)
 
-- [1.1  EKS vs. Self-Managed Kubernetes: Pros and Cons]
+- [1.1  EKS vs. Self-Managed Kubernetes: Pros and Cons](#eks-vs-self-manged-kubernetes-pros-and-cons)
 
 2. [Setting up  AWS Environment for EKS](#setting-up-aws-environment-for-eks)
 -[2.1 Creating an AWS Account and Setting up IAM Users]
