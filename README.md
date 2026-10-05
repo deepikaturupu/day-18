@@ -12,9 +12,9 @@
  - [3.3 Authenticating with the EKS Cluster](#Authenticatin-with-the-EKS-Cluster)
 
 4. [Deploying Applications on EKS](#deploying-applications-on-eks)
-  - 4.1 Containerizing Applications with Docker(#Containerizing-Applications-with-Docker)
-  - 4.2 Writing Kubernetes Deployment YAMLs(#Writing-Kubernetes-Deployment-YAMLs)
-  - 4.3 Deploying Applications to EKS: Step-by-step Guide
+  - 4.1 [Containerizing Applications with Docker](#Containerizing-Applications-with-Docker)
+  - 4.2[ Writing Kubernetes Deployment YAMLs](#Writing-Kubernetes-Deployment-YAMLs)
+  - 4.3[Deploying Applications to EKS: Step-by-step Guide](#[Deploying-Applications-to-EKS-Step-by-step-Guide)
 
 # Understanding Kubernetes Fundamentals
 
