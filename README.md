@@ -18,6 +18,7 @@ Deploying Applications on EKS
 4.3 Deploying Applications to EKS: Step-by-step Guide
 
 Understanding Kubernetes Fundamentals
+
 1.1 EKS vs. Self-Managed Kubernetes: Pros and Cons
 1.1.1 EKS (Amazon Elastic Kubernetes Service) Pros:
 
