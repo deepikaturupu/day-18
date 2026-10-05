@@ -1,21 +1,22 @@
 Understanding Kubernetes Fundamentals
 
-1.1 EKS vs. Self-Managed Kubernetes: Pros and Cons
-Setting up your AWS Environment for EKS
+1.1  EKS vs. Self-Managed Kubernetes: Pros and Cons
 
+Setting up your AWS Environment for EKS
 2.1 Creating an AWS Account and Setting up IAM Users
 2.2 Configuring the AWS CLI and kubectl
 2.3 Preparing Networking and Security Groups for EKS
-Launching your First EKS Cluster
 
+Launching your First EKS Cluster
 3.1 Using the EKS Console for Cluster Creation
 3.2 Launching an EKS Cluster via AWS CLI
 3.3 Authenticating with the EKS Cluster
-Deploying Applications on EKS
 
+Deploying Applications on EKS
 4.1 Containerizing Applications with Docker
 4.2 Writing Kubernetes Deployment YAMLs
 4.3 Deploying Applications to EKS: Step-by-step Guide
+
 Understanding Kubernetes Fundamentals
 1.1 EKS vs. Self-Managed Kubernetes: Pros and Cons
 1.1.1 EKS (Amazon Elastic Kubernetes Service) Pros:
@@ -33,13 +34,14 @@ Security and Compliance: EKS is designed to meet various security standards and 
 Monitoring and Logging: EKS integrates with AWS CloudWatch for monitoring cluster health and performance metrics, making it easier to track and troubleshoot issues.
 
 Ecosystem and Community: Being a managed service, EKS benefits from continuous improvement, support, and contributions from the broader Kubernetes community.
+
 Cons:
 
 Cost: EKS is a managed service, and this convenience comes at a cost. Running an EKS cluster may be more expensive compared to self-managed Kubernetes, especially for large-scale deployments.
 
 Less Control: While EKS provides a great deal of automation, it also means that you have less control over the underlying infrastructure and some Kubernetes configurations.
-1.1.2 Self-Managed Kubernetes on EC2 Instances Pros:
 
+1.1.2 Self-Managed Kubernetes on EC2 Instances Pros:
 Cost-Effective: Self-managed Kubernetes allows you to take advantage of EC2 spot instances and reserved instances, potentially reducing the overall cost of running Kubernetes clusters.
 
 Flexibility: With self-managed Kubernetes, you have full control over the cluster's configuration and infrastructure, enabling customization and optimization for specific use cases.
@@ -47,8 +49,8 @@ Flexibility: With self-managed Kubernetes, you have full control over the cluste
 EKS-Compatible: Self-managed Kubernetes on AWS can still leverage various AWS services and features, enabling integration with existing AWS resources.
 
 Experimental Features: Self-managed Kubernetes allows you to experiment with the latest Kubernetes features and versions before they are officially supported by EKS.
-Cons:
 
+Cons:
 Complexity: Setting up and managing a self-managed Kubernetes cluster can be complex and time-consuming, especially for those new to Kubernetes or AWS.
 
 Maintenance Overhead: Self-managed clusters require manual management of Kubernetes control plane updates, patches, and high availability.
@@ -87,6 +89,7 @@ Access Keys (for Programmatic Access):
 
 If you selected "Programmatic access" during user creation, you will receive access keys (Access Key ID and Secret Access Key).
 Store these access keys securely, as they will be used to authenticate API requests made to AWS services.
+
 2.2 Configuring the AWS CLI and kubectl
 With IAM users set up, you can now configure the AWS CLI and kubectl on your local machine to interact with AWS services and EKS clusters:
 
@@ -110,6 +113,7 @@ Click on the "Config" button and follow the instructions to update your kubeconf
 aws eks update-kubeconfig --name your-cluster-name
 Verify the configuration by running a kubectl command against your EKS cluster:
 kubectl get nodes
+
 2.3 Preparing Networking and Security Groups for EKS
 Before launching an EKS cluster, you need to prepare the networking and security groups to ensure proper communication and security within the cluster:
 
